@@ -1,10 +1,12 @@
-# flash-eprom-programmer
+# Flash-Eprom-Programmer
 This is complete solution to program FLASH EPROM memory devices.
 
 Project includes firmware and PC software for controlling it through USB port.
 
 Currently tested with these models:
 Intel 28F256
+
+![EPROM-Programmer-PCB](https://raw.githubusercontent.com/Juvar1/flash-eprom-programmer/main/rom-prog-pcb01.jpg)
 
 ## Hardware Instructions
 
