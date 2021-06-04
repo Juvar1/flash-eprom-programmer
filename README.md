@@ -26,19 +26,19 @@ Write text file with all necessary binary data in ascii format. File name should
 File content is filtered from any non-binary and non-hexadecimal characters. This includes space and linebreaks.
 
 Example binData.txt content:
-01010101 01010101 01010101
+<br>01010101 01010101 01010101
 
 Example hexData.txt content:
-00 11 22 0a
-aa 12 34 
+<br>00 11 22 0a
+<br>aa 12 34 
 
 Before first use of python scripts, input these commands once:
-chmod +x bin2hex.py
-chmod +x rom-loader.py
+<br>chmod +x bin2hex.py
+<br>chmod +x rom-loader.py
 
 Then run scripts on this way:
-./bin2hex.py
-./rom-loader.py
+<br>./bin2hex.py
+<br>./rom-loader.py
 
 ## License
 
