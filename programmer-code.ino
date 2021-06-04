@@ -13,10 +13,6 @@
  * List of manufacturers:
  * Intel, Atmel, AMD, SGS, TI, Toshiba
  * 
- * Note: Seems like bits can be programmed only from logical 1 to logical 0.
- *       So you need to erase chip before reprogram it.
- *       This is undocumented feature! Why not document it properly Intel?
- * 
  * Copyright (C) 2021, Juha-Pekka Varjonen
  */
 
