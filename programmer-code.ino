@@ -167,6 +167,7 @@ void executeCommand(char cmd[BUFFER_LENGTH]) {
       _delay_us(10);
       writeData(addr, 0xC0);
       _delay_us(6);
+      writeData(addr, data);
       comp = readData(addr);
       if (comp == data) {
         break;
@@ -183,8 +184,8 @@ void executeCommand(char cmd[BUFFER_LENGTH]) {
     uint32_t addr = 0;
     setVPP(HIGH);    
     while (PLSCNT < 1000) {
-      writeData(0x00, 0x20); // Erase setup command
-      writeData(0x00, 0x20); // Erase command
+      writeData(addr, 0x20); // Erase setup command
+      writeData(addr, 0x20); // Erase command
       _delay_ms(10);
       while (addr < memSize) {
         writeData(addr, 0xA0); // Erase verify command
